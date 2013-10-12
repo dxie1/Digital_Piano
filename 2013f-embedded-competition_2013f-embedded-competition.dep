@@ -1,0 +1,31 @@
+Dependencies for Project '2013f-embedded-competition', Target '2013f-embedded-competition': (DO NOT MODIFY !)
+F (.\startup.s)(0x523F62BC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o ..\bin\startup.o --depend ..\bin\startup.d)
+F (.\main.c)(0x52467658)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\main.o --omf_browse ..\bin\main.crf --depend ..\bin\main.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\PLL.h)(0x523D02AA)
+I (C:\Users\Di\Desktop\Di_and_Jesus\tm4c123gh6pm.h)(0x523D02DE)
+I (C:\Users\Di\Desktop\Di_and_Jesus\SysTickInts.h)(0x524637BA)
+I (C:\Users\Di\Desktop\Di_and_Jesus\Timer0A.h)(0x523F423A)
+I (C:\Users\Di\Desktop\Di_and_Jesus\ADC.h)(0x52463774)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x51C86746)
+I (C:\Users\Di\Desktop\Di_and_Jesus\Piano.h)(0x524636FE)
+I (C:\Users\Di\Desktop\Di_and_Jesus\mode.h)(0x52463742)
+I (C:\Users\Di\Desktop\Di_and_Jesus\DAC.h)(0x5246379A)
+F (.\PLL.c)(0x523F68A0)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\pll.o --omf_browse ..\bin\pll.crf --depend ..\bin\pll.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\PLL.h)(0x523D02AA)
+F (.\SysTickInts.c)(0x524679DA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\systickints.o --omf_browse ..\bin\systickints.crf --depend ..\bin\systickints.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\SysTickInts.h)(0x524637BA)
+I (C:\Users\Di\Desktop\Di_and_Jesus\DAC.h)(0x5246379A)
+F (.\Timer0A.c)(0x5242A8F2)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\timer0a.o --omf_browse ..\bin\timer0a.crf --depend ..\bin\timer0a.d)
+F (.\Piano.c)(0x5246802C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\piano.o --omf_browse ..\bin\piano.crf --depend ..\bin\piano.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\tm4c123gh6pm.h)(0x523D02DE)
+I (C:\Users\Di\Desktop\Di_and_Jesus\SysTickInts.h)(0x524637BA)
+F (.\ADC.c)(0x52431CBC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\adc.o --omf_browse ..\bin\adc.crf --depend ..\bin\adc.d)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x51C86746)
+F (.\mode.c)(0x5246836A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\mode.o --omf_browse ..\bin\mode.crf --depend ..\bin\mode.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\ADC.h)(0x52463774)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x51C86746)
+I (C:\Users\Di\Desktop\Di_and_Jesus\Timer0A.h)(0x523F423A)
+F (.\DAC.c)(0x524637A0)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -o ..\bin\dac.o --omf_browse ..\bin\dac.crf --depend ..\bin\dac.d)
+I (C:\Users\Di\Desktop\Di_and_Jesus\tm4c123gh6pm.h)(0x523D02DE)
+I (C:\Users\Di\Desktop\Di_and_Jesus\ADC.h)(0x52463774)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x51C86746)
